@@ -71,5 +71,97 @@
     height: 100vh;
     background-repeat: no-repeat;
 }
-
-
+/* .contactus */
+.contactus{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+    border:0;
+  }
+  .wrap {
+    max-width:900px;
+    width:80%;
+    margin:0 auto;
+    padding:40px 0px 40px 0px;
+  }
+  
+  .wrap h1 {
+    font-size:2rem;
+    color:#fff;
+    text-shadow:0px 1px 0px rgba(0,0,0,.1);
+    letter-spacing:-3px;
+  }
+  
+  .wrap p {
+    font-size:2rem;
+    color:#fff;
+    text-shadow:0px 1px 0px rgba(0,0,0,.1);
+    letter-spacing:1px;
+  }
+  
+  .fa {
+    margin-right:10px;
+  }
+  
+  .mainWrap {
+    width:80%;
+    margin:0 auto;
+  }
+  
+  .name,
+  .email {
+    width:49%;
+    border:0;
+    background:#fff;
+    padding:20px;
+    font-size:2rem;
+    box-shadow:4px 4px 0px rgba(0,0,0,.1);
+    color:#111;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #696969;
+  }
+  
+  :-moz-placeholder {
+   color: #696969; 
+  }
+  
+  ::-moz-placeholder {  
+   color: #696969;
+  }
+  
+  :-ms-input-placeholder {  
+   color: #696969;
+  }
+  
+  .name {
+    float:left;
+  }
+  
+  .email {
+    float:right;
+  }
+  
+  .mainArea {
+    width:100%;
+    box-shadow:4px 4px 0px rgba(0,0,0,.1);
+    font-size:2rem;
+    margin-top:20px;
+    padding:20px;
+    color:#111;
+    height:400px;
+    resize:none;
+  }
+  
+  .bigBtn {
+    width:100%;
+    padding:20px;
+    text-align:center;
+    margin-top:20px;
+    font-size:2rem;
+    color:#111;
+    cursor:pointer;
+  }
+  
