@@ -65,13 +65,17 @@
     color: black;
     padding: 100px;
 }
+
+/* .contactus */
 .contactus{
     background-image: url(image/c_image.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
 }
-/* .contactus */
+.contactus h3{
+    color: #fff;
+}
 .contactus{
     margin:0;
     padding:0;
@@ -88,56 +92,40 @@
   
   .wrap h1 {
     font-size:2rem;
-    color:#fff;
     text-shadow:0px 1px 0px rgba(0,0,0,.1);
     letter-spacing:-3px;
   }
-  
   .wrap p {
     font-size:2rem;
     color:#fff;
     text-shadow:0px 1px 0px rgba(0,0,0,.1);
     letter-spacing:1px;
   }
-  
   .fa {
     margin-right:10px;
-  }
-  
+  } 
   .mainWrap {
     width:80%;
     margin:0 auto;
-  }
-  
-  .name,
-  .email {
+  } 
+.email {
     width:49%;
     border:0;
-    background:#fff;
+    /* background:#fff; */
     padding:20px;
     font-size:2rem;
     box-shadow:4px 4px 0px rgba(0,0,0,.1);
     color:#111;
   }
-  
-  ::-webkit-input-placeholder {
-    color: #696969;
-  }
-  
-  :-moz-placeholder {
-   color: #696969; 
-  }
-  
-  ::-moz-placeholder {  
-   color: #696969;
-  }
-  
-  :-ms-input-placeholder {  
-   color: #696969;
-  }
-  
   .name {
     float:left;
+    width:49%;
+    border:0;
+    /* background:#fff; */
+    padding:20px;
+    font-size:2rem;
+    box-shadow:4px 4px 0px rgba(0,0,0,.1);
+    color:#111;
   }
   
   .email {
@@ -146,11 +134,11 @@
   
   .mainArea {
     width:100%;
-    box-shadow:4px 4px 0px rgba(0,0,0,.1);
+    /* box-shadow:4px 4px 0px rgba(0,0,0,.1); */
     font-size:2rem;
     margin-top:20px;
     padding:20px;
-    color:#111;
+    /* color:#111; */
     height:400px;
     resize:none;
   }
@@ -161,7 +149,8 @@
     text-align:center;
     margin-top:20px;
     font-size:2rem;
-    color:#111;
     cursor:pointer;
   }
+  
+  /* footer  */
   
