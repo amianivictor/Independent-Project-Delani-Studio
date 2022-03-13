@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-/* background image */
+/* background image section*/
 .bg-head{
   padding-top: 225px;
 }
@@ -67,15 +67,6 @@
     color: #fff;
     padding: 10px;
 }
-.whatwedo{
-    font-size: 3rem;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 .col-sm-3{
     transform: scale(0.69);
 }
@@ -84,6 +75,15 @@
     text-align: center;
     color: black;
     padding: 100px;
+}
+
+/* whatwedo */
+.what-we-do{
+  text-align: center;
+  padding-top: 40px;
+}
+.what-we-do .headings{
+  padding-bottom: 38px;
 }
 
 /* .contactus */
