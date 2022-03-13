@@ -28,8 +28,17 @@
     text-align: center;
     color: aliceblue;
     padding: 10px;
-    /* padding-top: ; */
 }
+#mouse-click{
+  padding-top : 22px;
+  margin-top: 10%;
+  padding-bottom: 30px; 
+}
+#mouse-click {
+  animation: bounce 2s infinite;
+}
+
+/* about us  */
 .aboutus h3{
     font-size: 3rem;
     text-align: center;
@@ -49,6 +58,8 @@
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
+
+/* servicess */
 .services {
     background-image: url(image/s_image.jpg);
     width: 100%;
@@ -70,12 +81,23 @@
 .col-sm-3{
     transform: scale(0.69);
 }
-.portfolio{
-    font-size: 3rem;
-    text-align: center;
-    color: black;
-    padding: 100px;
+#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left:18%;
+  margin-right: 16%; 
 }
+.col-md-3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.portfolio h2{
+  text-align: center;
+  padding-top:40px;
+  font-family: 'Gabriela', serif;
+}
+
 
 /* whatwedo */
 .what-we-do{
@@ -105,7 +127,6 @@
     border:0;
   }
   .wrap {
-    max-width:900px;
     width:80%;
     margin:0 auto;
     padding:40px 0px 40px 0px;
@@ -114,13 +135,11 @@
   .wrap h1 {
     color: #fff;
     font-size:2rem;
-    text-shadow:0px 1px 0px rgba(243, 239, 239, 0.1);
     letter-spacing:-3px;
   }
   .wrap p {
     font-size:2rem;
     color:#fff;
-    text-shadow:0px 1px 0px rgba(247, 243, 243, 0.1);
     letter-spacing:1px;
   }
   .fa {
@@ -135,7 +154,6 @@
     border:0;
     padding:20px;
     font-size:2rem;
-    box-shadow:4px 4px 0px rgba(248, 243, 243, 0.1);
     color:#fff;
     background-color: transparent;
   }
@@ -145,7 +163,6 @@
     border:0;
     padding:20px;
     font-size:2rem;
-    box-shadow:4px 4px 0px rgba(247, 243, 243, 0.1);
     color:#fff;
     background-color: transparent;
   }
@@ -160,7 +177,6 @@
     margin-top:20px;
     padding:20px;
     color:#fff;
-    height:400px;
     resize:none;
     background-color: transparent;
   }
@@ -172,6 +188,15 @@
     margin-top:20px;
     font-size:2rem;
     cursor:pointer;
+    background-color: transparent;
+
   }
   
   /* footer  */
+  footer{
+    text-align: center;
+    padding-top: 30px;
+}
+footer p{
+     margin-top: 10px;
+}
