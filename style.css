@@ -95,14 +95,13 @@
 .portfolio h2{
   text-align: center;
   padding-top:40px;
-  font-family: 'Gabriela', serif;
 }
 
 
 /* whatwedo */
 .what-we-do{
+  margin-top: -150px;
   text-align: center;
-  padding-top: 40px;
 }
 .what-we-do .headings{
   padding-bottom: 38px;
