@@ -83,21 +83,148 @@
 }
 
 /* portfolio  */
-#portfolio{
+.portfolio-images-first > :first-child{
+  background-image: url("image/work4.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  margin-left:5%;
-  margin-right: 5%; 
+
 }
-.col-md-3 img{
-  max-width: 100%;
-  max-height: 100%;
+
+
+.portfolio-images-first > :nth-child(2){
+  background-image: url("/image/work3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
-.portfolio h2{
+
+
+.portfolio-images-first > :nth-child(3){
+  background-image: url("image/work2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.portfolio-images-first > :nth-child(4){
+  background-image: url("image/work1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.portfolio-images-second{
+  margin-top: -50px;
+}
+
+
+.portfolio-images-second > :first-child{
+  background-image: url("image/work5.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.portfolio-images-second > :nth-child(2){
+  background-image: url("image/work6.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.portfolio-images-second > :nth-child(3){
+  background-image: url("images/work7.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.portfolio-images-second > :nth-child(4){
+  background-image: url("image/work8.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.work1, .work2, .work3, .work4, .work5, .work6, .work7, .work8{
+  background-color: rgba(0, 0, 0, .8);
+  height: 200px;
+  width: 245px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+
+.work1 > h4, .work2 > h4, .work3 > h4, .work4 > h4, .work5 > h4, .work6 > h4, .work7 > h4, .work8 > h4{
+  border: solid white 3px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 150px;
+  padding: 20px;
+  color: rgb(17, 228, 34);
+}
+
+#portfolio-heading{
   text-align: center;
-  padding-top:40px;
+  margin-bottom: 20px;
 }
+
 
 
 /* whatwedo */
