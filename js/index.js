@@ -84,7 +84,7 @@ $(document).ready(function(){
     });
   });
   
-  $("button").click(function (Maratah) {
+  $("button").click(function () {
     var client = document.getElementById('nameDetail').value;
     alert(' Dear ' + ' customer ' + ' we have received your message successfully. ' + ' Reach out to us anytime');
     Bryson.preventDefault();

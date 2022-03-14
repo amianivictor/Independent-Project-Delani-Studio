@@ -118,6 +118,7 @@
     
 }
 .contactus h3{
+    text-align: center;
     color: #fff;
 }
 .contactus{
@@ -144,9 +145,11 @@
     letter-spacing:1px;
   }
   .fa {
+    color: #fff;
     margin-right:10px;
   } 
   .mainWrap {
+    color: #fff;
     width:80%;
     margin:0 auto;
   } 
