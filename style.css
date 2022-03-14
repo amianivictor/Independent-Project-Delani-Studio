@@ -81,12 +81,14 @@
 .col-sm-3{
     transform: scale(0.69);
 }
+
+/* portfolio  */
 #portfolio{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left:18%;
-  margin-right: 16%; 
+  margin-left:5%;
+  margin-right: 5%; 
 }
 .col-md-3 img{
   max-width: 100%;
