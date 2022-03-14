@@ -241,6 +241,71 @@
   display: none;
 }
 
+/* contact us  */
+.contact{
+  background-image: url("image/_Delani\ Studio.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  /* text-align: center; */
+}
+.title{
+  padding: 6px;
+}
+#contact{
+    background-image: url("image/c_image.jpg");
+    background-size: cover;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10%;
+    }
+    
+    #contact{
+    font-family: "Amita";
+    }
+    
+    
+    
+    .form{
+    width: 700px;
+    max-width: 100%;
+    left: 50%;
+    transform: translate(-60%);
+    position: relative;
+    text-align: center;
+    }
+    
+    .form input{
+    width: 100%;
+    background: transparent;
+    }
+    
+    form textarea{
+    margin-top: 20px;
+    width: 100%;
+    background: transparent;
+    }
+    
+    .mail{
+    padding-bottom: 30px;
+    }
+    
+    ::placeholder,
+    .mail {
+    color: #fff;
+    }
+    ::placeholder{
+    font-size: 10px;
+    }
+    
+button {
+      margin-left: 20%;
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+ }
 
   /* footer  */
   footer{
